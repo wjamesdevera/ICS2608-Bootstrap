@@ -1,7 +1,4 @@
-@font-face {
-  font-family: "MS Sans Serif";
-  src: url("../fonts/MS95FA.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display&display=swap');
 
 body {
   /* font-family: "MS Sans Serif"; */
@@ -9,8 +6,12 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: 'DM Sans';
 }
 
+.navbar {
+  font-family: 'DM Serif Display', serif;
+}
 
 .vid {
   position: absolute;
@@ -22,6 +23,3 @@ body {
   height: 100%;
 }
 
-.hero-title {
-  color: #bef264;
-}

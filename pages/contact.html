@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      id="myForm"
+      action=""
+      target="_blank"
+      method="post"
+    >
+      <input type="text" name="entry.382233148" placeholder="Name" />
+      <input type="text" name="entry.1732727746" placeholder="Message" />
+      <button type="submit">Submit</button>
+    </form>
+    <iframe src="" frameborder="0" name="response_result" width="0" height="0">
+    </iframe>
+    <script>
+      function submitForm() {
+        var newAction = "https://docs.google.com/forms/d/e/1FAIpQLSfZjn63VHcP_bGqtq2Athx5eT8BpPId8n_wGDEmCGCHgyCbkQ/formResponse"; // Set your desired action URL here
+        document.getElementById("myForm").action = newAction; // Set the action attribute
+        document.getElementById("myForm").submit(); // Submit the form
+      }
+
+      // Add an event listener to the form for custom submission
+      document
+        .getElementById("myForm")
+        .addEventListener("submit", function (event) {
+          submitForm(); // Call the custom submitForm function
+          this.reset()
+        });
+    </script>
+  </body>
+</html>
