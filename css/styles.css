@@ -30,3 +30,17 @@ body {
   height: 100%;
 }
 
+/* CSS for hiding scrollbar */
+body {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer/Edge */
+}
+
+/* Hide scrollbars for Webkit (Chrome, Safari) */
+body::-webkit-scrollbar {
+    width: 0em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* You can change this to match your background color */
+}
