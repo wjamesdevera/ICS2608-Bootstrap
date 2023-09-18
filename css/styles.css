@@ -1,16 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;600;700&family=Montserrat&display=swap');
 
 body {
-  /* font-family: "MS Sans Serif"; */
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: column;
-  font-family: 'DM Sans';
+  font-family: 'Hind', sans-serif;
 }
 
 .navbar {
-  font-family: 'DM Serif Display', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero-title {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .vid {
