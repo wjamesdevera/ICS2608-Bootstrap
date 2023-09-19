@@ -44,3 +44,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background-color: transparent; /* You can change this to match your background color */
 }
+
+.hello {
+  object-fit: cover;
+}
